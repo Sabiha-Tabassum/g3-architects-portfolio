@@ -10,7 +10,7 @@
     padding-left: 50px;
     padding-right: 80px;
     padding-bottom: 80px;
-    border: 2px solid;
+    
     
 }
 .nav-bar{
@@ -79,7 +79,7 @@ team section start
 ......  */
 
 .box-img{
-    background: red;
+    
     width: 685px;
     height: 685px;
     margin-top: 30px;
@@ -96,10 +96,10 @@ team section start
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    border: 2px solid;
+    
 }
 .team-info{
-    margin-left: 20px;
+    margin-left: 40px;
     
 }
 .team-title{
@@ -188,6 +188,100 @@ team media queries
     left: 600px;
     border: 0;
     border-radius: 5px;
+}
+/* exp queries  */
+@media screen {
+    
+}
+
+
+/* analytics section start  */
+
+.analytics-sec{
+
+}
+
+.fact{
+    
+    width: 400px;
+    margin: 80px 45px;
+
+
+}
+.analytics{
+    display: flex;
+    justify-content: space-around;
+    
     
 
+
+}
+
+.analytics-1, .analytics-2, .analytics-3, .analytics-4 {
+    background: rgb(228, 206, 206);
+    text-align: center;
+    width: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 15px;
+    border: 2px solid orangered;
+    border-radius: 5px;
+
+    
+
+}
+.icon{
+    width: 40px;
+}
+
+/* sponsor section start*/
+.sponsors{
+    background: white;
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 100px;
+    
+
+}
+.sponsors-title{
+    margin-left: 40px;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.sponsor-description{
+    font-size: 15px;
+    margin-left: 25px;
+    color: #727272;
+}
+.sponsors-img{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 50px;
+
+}
+.image{
+    width: 150px;
+    
+    
+}
+
+@media screen {
+    
+}
+
+
+
+
+/* footer section start */
+.footer{
+    background: #FFF4E7;
+    border: 4px solid #FFF4E7;
+    width: 800px;
+    height: 50px;
+    margin: 0 auto;
+
+}
+.footer-info{
+    margin: 20px 140px;
+    color: #727272;
 }
