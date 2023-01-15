@@ -69,7 +69,43 @@ a{
 /*.........first
  .........media queries*/
 
-@media only screen and (max-width:688px) {
+@media only screen and (max-width: 850px) {
+    .header{
+        background: bisque;
+    }
+    .head-title{
+        
+        font-size: 20px;
+    }
+    ul{
+        display: grid;
+        grid-template-rows: repeat(4, 1fr) ;
+        gap: 5px;
+        margin-left: 100px;
+
+
+    }
+    .banner-title{
+        width: 400px;
+        height: 100px;
+    }
+    .banner-description{
+        width: 250px;
+        height: 100px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .btn-1{
+        margin-right: 50px;
+        padding-left: 5px;
+    }
+    .banner-img{
+        width: 200px;
+        height: 100px;
+        padding-left: 5px;
+    }
+
+
 
 
     
@@ -126,9 +162,15 @@ team section start
 /*........
 team media queries
 .......*/ 
-@media screen {
+@media only screen and (max-width: 850px) {
     
+        
+
+
+
 }
+    
+
 
 /* experience section start */
 
@@ -139,21 +181,32 @@ team media queries
     
 
 }
+
 .experience-info{
     background: white;
     width: 400px;
     height: 600px;
     margin-left: 100px;
-    border: 2px solid;
+
 
 
 }
 .experience-title{
-    margin-top: 40px;
+    margin-top: 38px;
     margin-left: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     font-weight: 800;
     font-size: 20px;
+    
+}
+.style{
+    background: #FF900E;
+    width: 4px;
+    height: 100px;
+    position: absolute;
+    top: 18px;
+    
+    
 }
 .exp-description{
     font-size: 14px;
@@ -164,7 +217,7 @@ team media queries
     background: white;
     width: 400px;
     height: 90px;
-    box-shadow: 2px 2px 2px 2px gray;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.116);
     border-radius: 5px;
     margin-top: 10px;
     
@@ -179,6 +232,7 @@ team media queries
 }
 .exp-btn{
     background-color: #FF900E;
+    color: aliceblue;
     font-weight: 800;
     font-size: 20px;
     width: 180px;
@@ -188,9 +242,11 @@ team media queries
     left: 600px;
     border: 0;
     border-radius: 5px;
+
 }
 /* exp queries  */
-@media screen {
+@media only screen and (max-width:850px) {
+
     
 }
 
@@ -218,7 +274,7 @@ team media queries
 }
 
 .analytics-1, .analytics-2, .analytics-3, .analytics-4 {
-    background: rgb(228, 206, 206);
+    background: white;
     text-align: center;
     width: 150px;
     padding-top: 20px;
@@ -226,10 +282,10 @@ team media queries
     margin-left: 15px;
     border: 2px solid orangered;
     border-radius: 5px;
-
     
-
 }
+
+
 .icon{
     width: 40px;
 }
@@ -265,7 +321,8 @@ team media queries
     
 }
 
-@media screen {
+@media only screen and (max-width:850px) {
+    
     
 }
 
